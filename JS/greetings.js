@@ -25,5 +25,5 @@ function onLoginSubmit(event){
     h1.classList.toggle(HIDDEN_CLASSNAME); 
 }
 
-_init()
+_init();
 loginForm.addEventListener("submit", onLoginSubmit);
